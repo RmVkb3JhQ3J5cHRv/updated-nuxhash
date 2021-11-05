@@ -64,8 +64,7 @@ class MiningScreen(wx.Panel):
                                               .Expand())
 
         bottomSizer = wx.BoxSizer(orient=wx.HORIZONTAL)
-        sizer.Add(bottomSizer, wx.SizerFlags().Border(wx.ALL, main.PADDING_PX)
-                                              .Expand())
+        sizer.Add(bottomSizer, wx.SizerFlags().Border(wx.ALL, main.PADDING_PX).Expand())
 
         # Add balance displays.
         balances = wx.FlexGridSizer(2, 2, main.PADDING_PX)
@@ -88,8 +87,7 @@ class MiningScreen(wx.Panel):
 
         # Add start/stop button.
         self._StartStop = wx.Button(self, label='Start Mining')
-        bottomSizer.Add(self._StartStop, wx.SizerFlags().Expand()
-                                                        .Center())
+        bottomSizer.Add(self._StartStop, wx.SizerFlags().Expand().Center())
         self.Bind(wx.EVT_BUTTON, self.OnStartStop, self._StartStop)
 
     def _OnSettings(self, settings):
