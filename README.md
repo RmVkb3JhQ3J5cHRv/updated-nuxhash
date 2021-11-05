@@ -4,7 +4,7 @@ nuxhash is a [NiceHash](https://nicehash.com) cryptocurrency mining client for
 Linux. nuxhash consists of a headless daemon and an optional wxPython-based GUI.
 It is currently in beta.
 
-Donations: bc1q2ne5zqa6k5egd82p4rv0rn44tpc35gv3afu52n
+Donations: 19sE9mHShbag5WiBwZ75nG21BSFZ1UnjpZ
 
 ## Features
 
@@ -76,5 +76,6 @@ so, but please consider sending me a one-time donation.
 - [X] Finish wx-based GUI
 - [ ] Implement other miners
 - [ ] Support AMD devices
+- [x] Fixed error(hopefully)
 
 I have no plans to implement direct overclocking or fan control.
