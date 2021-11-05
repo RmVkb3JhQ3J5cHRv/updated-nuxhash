@@ -1,5 +1,4 @@
 """A setuptools based setup module.
-
 See:
 https://packaging.python.org/en/latest/distributing.html
 https://github.com/pypa/sampleproject
@@ -17,10 +16,10 @@ from pathlib import Path
 here = Path(__file__).parent.resolve()
 
 # Get the long description from the README file
-with open(here/'README.md') as f:
+with open(str(here/'README.md'), encoding="utf8") as f:
     long_description = f.read()
 
-with open(here/'nuxhash'/'version.py') as f:
+with open(str(here/'nuxhash'/'version.py'), encoding="utf8") as f:
     exec(f.read())
 
 # Arguments marked as "Required" below must be included for upload to PyPI.
