@@ -51,6 +51,7 @@ Install the following dependencies (this list is for Ubuntu 18.04 LTS):
 * python3-pip
 * curl
 * ocl-icd-libopencl1 [(to run CUDA apps)](https://askubuntu.com/questions/1032430/opencl-with-nvidia-390-on-ubunut-18-04)
+* pypubsub
 
 Optionally, install this package to enable the GUI interface:
 
